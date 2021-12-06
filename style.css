@@ -1,0 +1,25 @@
+.nav {
+  background-color: darkslategray;
+}
+
+.nav-title {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: end;
+}
+
+ul {
+  
+}
+li {
+  
+}
+
+a {
+  color: white;
+  padding: 20px;
+  
+}
