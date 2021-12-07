@@ -4,29 +4,28 @@
 }
 
 .nav {
-  background-color: darkslategray;
+  background: darkslategray;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.nav-title {
-  color: white;
-  margin-left: 20px;
+ul li {
+  justify-content: end;
 }
 
 .nav-links {
-
+  display: flex;
 }
 
-li {
-  display: inline-flex;
-}
-
-ul {
-  list-style-type: none;
-  
-}
 
 a {
   color: white;
-  text-decoration: none;
-  padding: 10px;
+} 
+
+
+.nav-title {
+  justify-content: left;
 }
+  
+
