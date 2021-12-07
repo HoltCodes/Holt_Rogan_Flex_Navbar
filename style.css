@@ -6,26 +6,47 @@
 .nav {
   background: darkslategray;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
-ul li {
-  justify-content: end;
+h1 {
+  color: white;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 4rem;
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
 }
 
 .nav-links {
-  display: flex;
+  list-style-type: none;
+  padding-top: 20px;
 }
 
+li {
+  display: inline;
+  margin-left: 20px;
+  font-size: 2rem;
+}
 
-a {
+.active {
   color: white;
-} 
+}
 
-
-.nav-title {
-  justify-content: left;
+.btn {
+  margin-right: 30px;
+  
+  display: inline;
+  font-size: 1.5rem;
+  color:white;
+  background: blue;
+  border: black;
+  box-shadow: 5px 5px 10px 2px black;
+  padding: 5px 15px 5px 15px;
+  
 }
   
 
