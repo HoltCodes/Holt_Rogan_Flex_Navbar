@@ -1,25 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .nav {
   background-color: darkslategray;
 }
 
 .nav-title {
   color: white;
+  margin-left: 20px;
 }
 
 .nav-links {
-  display: flex;
-  justify-content: end;
+
+}
+
+li {
+  display: inline-flex;
 }
 
 ul {
-  
-}
-li {
+  list-style-type: none;
   
 }
 
 a {
   color: white;
-  padding: 20px;
-  
+  text-decoration: none;
+  padding: 10px;
 }
